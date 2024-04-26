@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, console.log(`Server running on the port number ${PORT}`));
 
 // Configuration (MONGODB)
-var curl = "mongodb://localhost:27017";
+var curl = "mongodb+srv://dhanunjayp67:UYj2gEPo4fHZj1Ka@final.qtxvndt.mongodb.net/";
 var client = new MongoClient(curl);
 
 // TESTING
